@@ -3,8 +3,7 @@
     "__export_format": 4,
     "__export_date": "2019-11-04T12:09:40.969Z",
     "__export_source": "insomnia.desktop.app:v7.0.3",
-    "resources": [
-        {
+    "resources": [{
             "_id": "req_52c5a78fd2e549be881bb1c556da1736",
             "authentication": {},
             "body": {
@@ -13,13 +12,11 @@
             },
             "created": 1568235770165,
             "description": "",
-            "headers": [
-                {
-                    "id": "pair_54a4c50e57b849d8bd86858c3b44443c",
-                    "name": "Content-Type",
-                    "value": "application/json"
-                }
-            ],
+            "headers": [{
+                "id": "pair_54a4c50e57b849d8bd86858c3b44443c",
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
             "isPrivate": false,
             "metaSortKey": -1568310919850.1875,
             "method": "POST",
@@ -77,13 +74,11 @@
             },
             "created": 1568238392073,
             "description": "",
-            "headers": [
-                {
-                    "id": "pair_54a4c50e57b849d8bd86858c3b44443c",
-                    "name": "Content-Type",
-                    "value": "application/json"
-                }
-            ],
+            "headers": [{
+                "id": "pair_54a4c50e57b849d8bd86858c3b44443c",
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
             "isPrivate": false,
             "metaSortKey": -1568310919825.1875,
             "method": "POST",
@@ -108,13 +103,11 @@
             },
             "created": 1568053668207,
             "description": "",
-            "headers": [
-                {
-                    "id": "pair_54a4c50e57b849d8bd86858c3b44443c",
-                    "name": "Content-Type",
-                    "value": "application/json"
-                }
-            ],
+            "headers": [{
+                "id": "pair_54a4c50e57b849d8bd86858c3b44443c",
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
             "isPrivate": false,
             "metaSortKey": -1568310919800.1875,
             "method": "POST",
@@ -139,13 +132,11 @@
             },
             "created": 1568051434051,
             "description": "",
-            "headers": [
-                {
-                    "id": "pair_54a4c50e57b849d8bd86858c3b44443c",
-                    "name": "Content-Type",
-                    "value": "application/json"
-                }
-            ],
+            "headers": [{
+                "id": "pair_54a4c50e57b849d8bd86858c3b44443c",
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
             "isPrivate": false,
             "metaSortKey": -1568310919750.1875,
             "method": "POST",
@@ -170,13 +161,11 @@
             "body": {},
             "created": 1568310949408,
             "description": "",
-            "headers": [
-                {
-                    "id": "pair_be4306a848f747299ef09c11f133924f",
-                    "name": "",
-                    "value": ""
-                }
-            ],
+            "headers": [{
+                "id": "pair_be4306a848f747299ef09c11f133924f",
+                "name": "",
+                "value": ""
+            }],
             "isPrivate": false,
             "metaSortKey": -1568310997148,
             "method": "GET",
@@ -241,13 +230,11 @@
             },
             "created": 1568310980588,
             "description": "",
-            "headers": [
-                {
-                    "id": "pair_acbd8790954444e89cdc124514edffda",
-                    "name": "Content-Type",
-                    "value": "application/json"
-                }
-            ],
+            "headers": [{
+                "id": "pair_acbd8790954444e89cdc124514edffda",
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
             "isPrivate": false,
             "metaSortKey": -1568310997110.5,
             "method": "POST",
@@ -275,13 +262,11 @@
             },
             "created": 1568310988631,
             "description": "",
-            "headers": [
-                {
-                    "id": "pair_40f9391805084fc2aae8b245cad33330",
-                    "name": "Content-Type",
-                    "value": "application/json"
-                }
-            ],
+            "headers": [{
+                "id": "pair_40f9391805084fc2aae8b245cad33330",
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
             "isPrivate": false,
             "metaSortKey": -1568310997104.25,
             "method": "PUT",
