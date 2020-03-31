@@ -69,7 +69,7 @@
     }, {
         "_id": "fld_c6f9efce11b648f0b619e6d09856f689",
         "created": 1581615301337,
-        "description": "",
+        "description": "Esta documentação é referente a API da empresa júnior EJCOMP, atualmente hospedada na plataforma Heroku com repositório em: https://github.com/evandroduarte/API-REST-USER, não fazer alterações no repositório por este estar com upload automático para o Heroku.",
         "environment": {},
         "environmentPropertyOrder": null,
         "metaSortKey": -1581615301337,
