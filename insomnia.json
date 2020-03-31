@@ -58,7 +58,7 @@
     }, {
         "_id": "fld_6dbe2b9add0540fc848635d66109dfbc",
         "created": 1584886477227,
-        "description": "",
+        "description": "Rotas que tratam o CRUD dos projetos já feitos pela EJ, requerem Bearer token para serem utilizadas.",
         "environment": {},
         "environmentPropertyOrder": null,
         "metaSortKey": -1584886477227,
@@ -237,7 +237,7 @@
     }, {
         "_id": "fld_cf69ec0da24e4abc96747c44a18231e6",
         "created": 1584886466476,
-        "description": "",
+        "description": "Rotas que tratam do CRUD de usuários do site, como foi definido a criação de novos usuários só podera ser feita por outro usuário, servidotr SMTP para envio de token de renovação de senha ainda não configurado.",
         "environment": {},
         "environmentPropertyOrder": null,
         "metaSortKey": -1584886466477,
@@ -432,7 +432,7 @@
     }, {
         "_id": "fld_de3ed90d59d04ee78bc284ba5ce1074e",
         "created": 1585328411627,
-        "description": "",
+        "description": "Rotas que tratam o CRUD de posts do blog da EJ",
         "environment": {},
         "environmentPropertyOrder": null,
         "metaSortKey": -1584886450350.5,
@@ -603,7 +603,7 @@
     }, {
         "_id": "fld_ea9d4e7c246248989bdad5d19ce43a7b",
         "created": 1584886434224,
-        "description": "",
+        "description": "Rotas que tratam o CRUD de membros da EJ",
         "environment": {},
         "environmentPropertyOrder": null,
         "metaSortKey": -1584886434224,
