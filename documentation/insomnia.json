@@ -1,7 +1,7 @@
 {
     "_type": "export",
     "__export_format": 4,
-    "__export_date": "2020-03-27T18:50:54.982Z",
+    "__export_date": "2020-03-31T13:18:24.199Z",
     "__export_source": "insomnia.desktop.app:v7.1.1",
     "resources": [{
         "_id": "req_1d8410ee0aa64b44848f4236f6b5b01d",
@@ -205,7 +205,9 @@
         "_type": "request"
     }, {
         "_id": "req_4b7111bf50fc4f05aa2ebfc4c1d5a53e",
-        "authentication": {},
+        "authentication": {
+            "type": "bearer"
+        },
         "body": {
             "mimeType": "application/json",
             "text": "{\n\t\"name\": \"\",\n\t\"email\": \"\",\n\t\"password\": \"\"\n}"
@@ -220,7 +222,7 @@
         "isPrivate": false,
         "metaSortKey": -1585327183029,
         "method": "POST",
-        "modified": 1585330753890,
+        "modified": 1585660685436,
         "name": "Register user",
         "parameters": [],
         "parentId": "fld_cf69ec0da24e4abc96747c44a18231e6",
@@ -230,7 +232,7 @@
         "settingRebuildPath": true,
         "settingSendCookies": true,
         "settingStoreCookies": true,
-        "url": "https://api-ejcomp-site.herokuapp.com/auth/register",
+        "url": "http://localhost:3000/auth/register",
         "_type": "request"
     }, {
         "_id": "fld_cf69ec0da24e4abc96747c44a18231e6",
@@ -260,7 +262,7 @@
         "isPrivate": false,
         "metaSortKey": -1585327183004,
         "method": "POST",
-        "modified": 1585330764700,
+        "modified": 1585660600379,
         "name": "Auth",
         "parameters": [],
         "parentId": "fld_cf69ec0da24e4abc96747c44a18231e6",
@@ -329,6 +331,56 @@
         "settingSendCookies": true,
         "settingStoreCookies": true,
         "url": "https://api-ejcomp-site.herokuapp.com/auth/reset_password",
+        "_type": "request"
+    }, {
+        "_id": "req_3ff8de8f252a47ecbe7d323f419da91b",
+        "authentication": {
+            "token": "",
+            "type": "bearer"
+        },
+        "body": {},
+        "created": 1585659810337,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1585327182929,
+        "method": "GET",
+        "modified": 1585660609921,
+        "name": "List Users",
+        "parameters": [],
+        "parentId": "fld_cf69ec0da24e4abc96747c44a18231e6",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "https://api-ejcomp-site.herokuapp.com/auth",
+        "_type": "request"
+    }, {
+        "_id": "req_dadf461d077142efb8053db672e42c56",
+        "authentication": {
+            "token": "",
+            "type": "bearer"
+        },
+        "body": {},
+        "created": 1585660494831,
+        "description": "",
+        "headers": [],
+        "isPrivate": false,
+        "metaSortKey": -1585327182879,
+        "method": "DELETE",
+        "modified": 1585660623043,
+        "name": "Delete User",
+        "parameters": [],
+        "parentId": "fld_cf69ec0da24e4abc96747c44a18231e6",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "https://api-ejcomp-site.herokuapp.com/auth/{userId}",
         "_type": "request"
     }, {
         "_id": "req_6d5700649be344c687847712276bf406",
